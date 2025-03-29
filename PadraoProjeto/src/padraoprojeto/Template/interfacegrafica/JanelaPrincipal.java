@@ -2,20 +2,26 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package interfacegrafica;
+package padraoprojeto.Template.interfacegrafica;
 
 /**
  *
- * @author julio
+ * 
  */
-import models.AlunoCompleto;
-import persistencia.*;
-
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.ArrayList;
+import padraoprojeto.Template.models.AlunoCompleto;
+import padraoprojeto.Template.persistencia.AlunoTemplateMethod;
+import padraoprojeto.Template.persistencia.OrdenadoPorCursoENome;
+import padraoprojeto.Template.persistencia.OrdenadoPorCursoEnfaseENome;
+import padraoprojeto.Template.persistencia.OrdenadoPorEnfaseCursoENome;
+import padraoprojeto.Template.persistencia.OrdenadoPorEnfaseENome;
+import padraoprojeto.Template.persistencia.OrdenadoPorNome;
+import padraoprojeto.Template.persistencia.OrdenadoPorSituacaoENome;
+import padraoprojeto.Template.persistencia.OrdenadoPorSobrenome;
 
 public class JanelaPrincipal extends JFrame {
 

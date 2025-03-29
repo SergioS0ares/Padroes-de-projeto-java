@@ -1,4 +1,4 @@
-package models;
+package padraoprojeto.Template.models;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -7,7 +7,7 @@ package models;
 
 /**
  *
- * @author julio
+ * 
  */
 public class AlunoCompleto {
     private String nomeCompleto;
