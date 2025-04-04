@@ -6,7 +6,7 @@ package persistencia;
 
 /**
  *
- * @author julio
+ * @author sergy
  */
 import models.AlunoCompleto;
 

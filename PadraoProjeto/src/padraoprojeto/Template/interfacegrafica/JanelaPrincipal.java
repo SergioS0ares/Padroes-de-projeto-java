@@ -6,7 +6,7 @@ package interfacegrafica;
 
 /**
  *
- * @author julio
+ * @author sergy
  */
 import models.AlunoCompleto;
 import persistencia.*;

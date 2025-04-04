@@ -7,7 +7,7 @@ package models;
 
 /**
  *
- * @author julio
+ * @author sergy
  */
 public class AlunoCompleto {
     private String nomeCompleto;
