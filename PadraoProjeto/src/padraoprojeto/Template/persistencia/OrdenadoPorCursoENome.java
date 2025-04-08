@@ -9,6 +9,7 @@ package persistencia;
  * @author sergy
  */
 import models.AlunoCompleto;
+import padraoprojeto.Template.persistencia.AlunoTemplateMethod;
 
 public class OrdenadoPorCursoENome extends AlunoTemplateMethod {
     public OrdenadoPorCursoENome(String nomeArquivo) {

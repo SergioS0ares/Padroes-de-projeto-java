@@ -11,7 +11,7 @@ package padraoprojeto.Template.persistencia;
 
 import java.io.*;
 import java.util.*;
-import padraoprojeto.Template.models.AlunoCompleto;
+import models.AlunoCompleto;
 
 public abstract class AlunoTemplateMethod {
     private String nomeArquivo;

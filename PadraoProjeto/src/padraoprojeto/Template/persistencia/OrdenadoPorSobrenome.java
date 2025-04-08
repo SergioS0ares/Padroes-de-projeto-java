@@ -9,13 +9,15 @@ package persistencia;
  * @author sergy
  */
 import models.AlunoCompleto;
+import padraoprojeto.Template.persistencia.AlunoTemplateMethod;
 
 public class OrdenadoPorSobrenome extends AlunoTemplateMethod {
     public OrdenadoPorSobrenome(String nomeArquivo) {
         super(nomeArquivo);
     }
+   
     @Override
     public boolean ePrimeiro(AlunoCompleto a1, AlunoCompleto a2) {
-        return a1.getSobrenome().compareToIgnoreCase(a2.getSobrenome()) <= 0;
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 }
