@@ -18,7 +18,7 @@ O projeto inclui implementações com e sem **Java Swing**, leitura de arquivos 
 
 ## ✅ Padrões implementados
 
-### 🔒 Singleton
+### 🔒 Singleton  
 Gerencia o acesso a uma única instância de uma classe. Usado aqui para simular uma agência bancária onde os clientes são sempre vinculados à mesma instância.
 
 **Pasta:** `singleton`  
@@ -29,7 +29,7 @@ Gerencia o acesso a uma única instância de uma classe. Usado aqui para simular
 
 ---
 
-### 🔌 Adapter
+### 🔌 Adapter  
 Permite adaptar a interface de uma classe para outra. Aqui, convertemos temperaturas entre Fahrenheit e Celsius por meio de um adaptador.
 
 **Pasta:** `adapter`  
@@ -40,7 +40,7 @@ Permite adaptar a interface de uma classe para outra. Aqui, convertemos temperat
 
 ---
 
-### 🔁 Iterator
+### 🔁 Iterator  
 Permite acessar os elementos de uma coleção sequencialmente, sem expor sua estrutura interna. Neste exemplo, exibimos dados de pilotos de Fórmula 1 usando diferentes estruturas de dados da biblioteca Java (`LinkedList`, `HashSet`, `TreeSet`, `Stack`, `HashMap`).
 
 **Pasta:** `iterator`  
@@ -52,5 +52,44 @@ Permite acessar os elementos de uma coleção sequencialmente, sem expor sua est
 
 ---
 
+### 👁️ Observer  
+Define uma dependência um-para-muitos entre objetos, onde quando um objeto muda de estado, todos os seus dependentes são notificados automaticamente.
+
+**Pasta:** `observer`  
+**Destaques:**
+- Implementação do padrão publicador/assinante (publisher/subscriber)
+- Observadores reagem automaticamente a mudanças no estado do objeto observado
+- Exemplo didático com simulação de notificações em tempo real
+
+---
+
+### 🏭 Factory  
+Fornece uma interface para criar objetos em uma superclasse, mas permite que subclasses alterem o tipo de objetos que serão criados.
+
+**Pasta:** `factory`  
+**Destaques:**
+- Criação dinâmica de objetos com base em parâmetros
+- Redução de acoplamento entre classes
+- Exemplo prático com criação de diferentes tipos de veículos, contas bancárias ou usuários
+
+---
+
+### 🎨 Decorator  
+Permite adicionar funcionalidades a objetos de forma dinâmica sem alterar sua estrutura.  
+Ideal para cenários onde queremos manter a flexibilidade na composição de comportamentos.
+
+**Pasta:** `decorator`  
+**Destaques:**
+- Composição de funcionalidades em tempo de execução
+- Simulação com personalização de bebidas, pedidos ou componentes visuais
+- Reforço da aplicação do princípio aberto/fechado (Open/Closed Principle)
+
+---
+
 ## 📌 Estrutura do projeto
 
+A estrutura segue separação por padrão de projeto, com pacotes organizados individualmente. Cada padrão conta com exemplos comentados e organizados para facilitar o estudo e reuso do código.
+
+---
+
+Novos padrões serão adicionados conforme o avanço dos estudos.
